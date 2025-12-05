@@ -98,12 +98,12 @@ QNX Hypervisor divides CPU, memory, and devices across domains.
 This ensures QNX always has predictable performance.
 ### 2️⃣ Inter-Domain Communication  
 -A shared memory region is mapped into both domains.
--A ring buffer passes messages like:
+  -A ring buffer passes messages like:
     -Speed updates
     -Navigation arrows
     -Media metadata
     -Health/heartbeat signals
--A doorbell interrupt notifies the receiver.
+    -A doorbell interrupt notifies the receiver.
 
 ### 3️⃣ QNX Domain  
 Real-time cluster simulation.
